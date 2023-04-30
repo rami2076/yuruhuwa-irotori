@@ -39,7 +39,6 @@ async function submit() {
         <input type="checkbox" v-model="isUseDefaultWordList">
         <p>単語一覧ファイル </p>
         <input type="file" ref="wordListFile">
-
         <button @click="submit">送信</button>
 
     </div>
